@@ -1,69 +1,66 @@
-*{
-    margin:0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-h1{
-    height: 40px;
+h1 {
+  height: 40px;
 }
-body{
-background-color: #548688;
-text-align: center;
-
+body {
+  background-color: #8941d1;
+  text-align: center;
 }
-#container{
-    height: 70vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+#container {
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-#game{
-    height: 60vmin;
-    width: 60vmin;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5vmin;
-    
+#game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
 }
-.box{
-    height: 18vmin;
-    width: 18vmin;
-    border-radius: 12%;
-   border: none;
-   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
-   font-size: 8vmin;
-   color: rgb(255, 145, 0);
-   background-color: rgb(190, 168, 139);
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 12%;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  font-size: 8vmin;
+  color: rgb(52, 21, 42);
+  background-color: rgb(225, 229, 231);
 }
-#reset-btn{
-    padding: 1rem;
-    font-size: 1.25rem;
-    border-radius: 12%;
-    color: white;
-    background-color: rgb(27, 6, 6);
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  border-radius: 12%;
+  color: white;
+  background-color: rgb(27, 6, 6);
 }
-#new-btn{
-    padding: 1rem;
-    font-size: 1.25rem;
-    border-radius: 12%;
-    color: white;
-    background-color: rgb(27, 6, 6);
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  border-radius: 12%;
+  color: white;
+  background-color: rgb(27, 6, 6);
 }
-#msg{
-    color: rgb(255, 175, 4);
-    font-size: 40px; 
+#msg {
+  color: rgb(255, 140, 0);
+  font-size: 40px;
 }
-.msg-container{
-    height: 100vmin;
-    display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   gap: 4rem;
-
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
 }
-.hide{
-    display: none;
+.hide {
+  display: none;
 }
