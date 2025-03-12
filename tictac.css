@@ -52,6 +52,7 @@ body {
 #msg {
   color: rgb(255, 140, 0);
   font-size: 40px;
+  background-color: black;
 }
 .msg-container {
   height: 100vmin;
